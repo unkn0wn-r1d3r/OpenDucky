@@ -1,0 +1,8 @@
+[Unit]
+Description=openDucky armed boot payload
+After=multi-user.target
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/ducky/boot.sh
+[Install]
+WantedBy=multi-user.target

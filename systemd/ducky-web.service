@@ -1,0 +1,8 @@
+[Unit]
+Description=openDucky web panel
+After=network.target
+[Service]
+ExecStart=/usr/bin/perl /opt/ducky/web/serve-panel.pl
+Restart=on-failure
+[Install]
+WantedBy=multi-user.target

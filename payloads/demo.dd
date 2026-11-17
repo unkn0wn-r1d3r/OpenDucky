@@ -1,0 +1,4 @@
+REM openDucky demo - types into whatever has focus (safe, lab test)
+DELAY 500
+STRING Built with openDucky on a cheap MSM8916 stick.
+ENTER

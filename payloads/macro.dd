@@ -1,0 +1,5 @@
+REM cross-OS macro demo - compile with --os win | mac | linux
+DEFAULT_DELAY 50
+RUN notepad
+STRING hello from the macro layer
+ENTER
