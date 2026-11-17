@@ -1,4 +1,5 @@
-# openDucky
+# openDucky from Hackerpod.space
+visit: https://hackerpod.space/blog/openducky-lte-badusb/
 
 Turn a cheap Qualcomm **MSM8916 4G LTE USB dongle** (≈ ₹600 / ~$7) into a
 self-contained, web-managed **USB keystroke-injection platform** with its own
@@ -6,7 +7,7 @@ Ducky-style `.dd` script compiler, a browser control panel, armed-on-boot
 payloads, and optional worldwide remote control over LTE + a WireGuard mesh.
 
 Built on **OpenStick** (Debian on the mainline postmarketOS MSM8916 kernel).
-Pure **Bash + Perl** — no Python, no heavyweight web server.
+Pure **Bash + Perl** - no Python, no heavyweight web server.
 
 > ⚠️ **Authorized use only.** This types into any machine it is plugged into,
 > on power. Use it only on systems you own or are explicitly authorized to
@@ -33,7 +34,7 @@ Full build write-up & explanation: **hackerpod.space**
   **OpenStick / Debian** (ships `gt`, configfs gadget support, and
   `/etc/gt/templates/hid.scheme`).
 - Back up your modem calibration partitions **before** flashing
-  (`persist`, `modem*`, `fsg`, `modemst1`, `modemst2`) — losing them bricks the modem.
+  (`persist`, `modem*`, `fsg`, `modemst1`, `modemst2`) - losing them bricks the modem.
 
 ## Install
 
@@ -50,9 +51,9 @@ the web panel. Open `http://<dongle-ip>:8080/cgi-bin/panel.cgi`.
 ## Usage
 
 - **Write a payload** in the panel editor (or drop a `.dd` in `/opt/ducky/payloads/`).
-- **Run now** — compiles with the chosen Target OS and fires it (USB flips to
+- **Run now** - compiles with the chosen Target OS and fires it (USB flips to
   keyboard, types, then restores networking automatically).
-- **Arm** — writes `/opt/ducky/config`; the next boot fires it once, then
+- **Arm** - writes `/opt/ducky/config`; the next boot fires it once, then
   auto-disarms.
 
 ### Compile a payload by hand
@@ -88,4 +89,4 @@ install.sh  config.example  LICENSE
 
 ## License
 
-MIT — authorized security testing & education only. See `LICENSE`.
+Connect to : Hackerpod.space
